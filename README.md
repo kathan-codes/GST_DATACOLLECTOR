@@ -28,18 +28,36 @@ A Python automation tool that scrapes Transport GSTINs from a public website and
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Installation
 
-* Python 3.10+
+### Prerequisites
+
+* Python 3.10 or later
 * Google Chrome
 
-Install dependencies:
+### Install Dependencies
+
+Clone the repository and install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
+The project uses the following libraries:
+
+* `requests`
+* `beautifulsoup4`
+* `pandas`
+* `selenium`
+* `undetected-chromedriver`
+* `openpyxl`
+
+If you don't have a `requirements.txt` file, you can install them manually:
+
+```bash
+pip install requests beautifulsoup4 pandas selenium undetected-chromedriver openpyxl
+```
+
 
 ## 🚀 Usage
 
